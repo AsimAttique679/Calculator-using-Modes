@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+ 
+    background: linear-gradient(to right, rgb(1, 1, 11), rgb(143, 143, 227));
+
+}
+
+/* @media only screen and (min-width:300px) and (max-width:500px){
+    body{
+        background-color: blue;
+    }
+} */
+
+h1{
+    font-size: 4em;
+    color: white
+    
+}
+
+
+  .container{
+    text-align: center;
+    margin: 70px auto;
+     width: 700px;
+     height: 400px;
+
+  /* color: rgb(236, 75, 75); */
+    padding: 9px;
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+  
+    .container{
+        width: 475px;
+    height: 524px;
+        margin: 7px auto ;
+        
+     
+    }
+   
+}
+table{
+    margin: auto;
+}
+
+.input {
+   
+   width: 415px;
+    height: 45px;
+    font-size: 34px;
+     margin: 10px 7px 12px 0px;
+    box-shadow: 10px 10px 20px #888888;
+    border-radius: 21px;
+    text-align: right;
+    padding: 4px 11px;
+    
+    font-family: calibri;
+}
+ #equal{
+    height: 121px;
+    background-color: red;
+}
+.func1{
+    background-color: red;
+}
+.func2{
+    background: linear-gradient( rgb(125, 125, 242),blue);
+    /* background: linear-gradient( rgb(63, 63, 64),rgb(110, 110, 124)); */
+
+}
+
+button{
+    border: none;
+    color: white;
+    font-size: 32px;
+    width: 102px;
+    height: 58px;
+    border-radius: 21px;
+}
+.calculator{
+    display: inline-block;
+   background: white;
+    box-shadow: 10px 10px 20px #888888; ;
+    border-radius: 19px;
+    padding: 7px;
+    /* border: 2px solid black; */
+
+}
+
+
+#screen{
+    padding: 7px 5px;
+}
+
+div #btn{
+   height: 34px;
+    width: 98px;
+    font-size: 1em;
+    color:white;
+    margin: 1px 0px;
+    background: black;
+  
+}
+
+
